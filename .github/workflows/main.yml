@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
-    - name: git-ftp push
+    - name: git-ftp catchup
       uses: sebastianpopp/git-ftp-action@releases/v2
       with:
         url: "ftp://ftp.demo7.ebizindia.com/public_html/testgitupload"
